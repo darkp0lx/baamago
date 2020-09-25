@@ -1,4 +1,5 @@
 <script>
+import {fade,fly} from 'svelte-transitions'
 </script>
 
 <style lang="scss">
@@ -23,7 +24,7 @@
   }
 </style>
 
-<div class="Studio">
+<div class="Studio" in:fly="{{ y: 200, duration: 1500 }}" out:fade>
   <div class="container-studio">
     <div class="container-img">
       <img

@@ -4,18 +4,15 @@
   import Artist from "./components/Artist.svelte";
   import SliderTatto from "./components/SliderTatto.svelte";
   import SliderPiercing from "./components/SliderPiercing.svelte";
+  import { fly ,fade} from 'svelte/transition';
 
-  import Icon from "fa-svelte";
-  import { faAd } from "@fortawesome/free-solid-svg-icons/faAd";
-
-  let icon = faAd;
 </script>
 <style>
   main{
     margin-top: 13vh;
   }
 </style>
-<main>
+<main in:fly="{{ y: 200, duration: 1500 }}" out:fade>
   <Carrousel />
   <InfoPage />
   <Artist />

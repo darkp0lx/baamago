@@ -4,11 +4,9 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public --single"
   },
   "devDependencies": {
-    "@iconify/icons-brandico": "^1.0.7",
-    "@iconify/svelte": "^1.0.2",
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "autoprefixer": "^10.0.0",
@@ -25,12 +23,10 @@
     "svelte-preprocess": "^4.3.0"
   },
   "dependencies": {
-    "@fortawesome/free-solid-svg-icons": "^5.14.0",
-    "@splidejs/splide": "^2.4.14",
     "firebase": "^7.19.1",
     "sirv-cli": "^1.0.0",
     "svelte-icons": "^2.1.0",
     "svelte-routing": "^1.4.2",
-    "sveltestrap": "^3.7.8"
+    "svelte-transitions": "^1.2.0"
   }
 }

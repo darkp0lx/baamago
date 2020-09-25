@@ -1,4 +1,5 @@
 <script>
+  import {fade,fly} from 'svelte-transitions'
 </script>
 
 <style lang="scss">
@@ -37,7 +38,7 @@
   }
 </style>
 
-<div class="Tattos">
+<div class="Tattos" in:fade  out:fly="{{ y: 200, duration: 1500 }}">
   <div class="box">
     <a
       href="https://instagram.faqp4-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/p640x640/118472261_121828239388533_1708653920161727012_n.jpg?_nc_ht=instagram.faqp4-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=-vESmVftkQ8AX9PmsZ1&oh=d22835e89e8c358c9512ecb70087646b&oe=5F8DCC31"><img
