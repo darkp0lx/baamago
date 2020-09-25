@@ -1,9 +1,12 @@
 <script>
   import { fade } from "svelte/transition";
   const carouselPhotos = [
-    "https://scontent.faqp4-2.fna.fbcdn.net/v/t1.0-9/118863937_600961797253329_87000584461393436_o.jpg?_nc_cat=100&_nc_sid=a26aad&_nc_eui2=AeFBLnLd51oL4aFR6B-3R9VyS4YcsUH-W1ZLhhyxQf5bVuuLem1WgoMOx4-F5d33kN7AW5hL6Fhj2uyg1SP_ojCR&_nc_ohc=IrrTnexntaUAX-weBFE&_nc_ht=scontent.faqp4-2.fna&oh=d397d3b13cbb623a0e0d53533f85b192&oe=5F7CEAB0",
-    "https://scontent.faqp4-1.fna.fbcdn.net/v/t1.0-9/118496189_596348691047973_4081341248955873775_o.jpg?_nc_cat=102&_nc_sid=a26aad&_nc_eui2=AeHcAANNAf7xyrAG2-r-nyKvdfjzcwGJ_at1-PNzAYn9q9aSB4fwUKHGgEllsVWOt_zoXR-NQ2J0Vq2fnPrp5yaO&_nc_ohc=Vyk9xlkt4IYAX9y2d6_&_nc_oc=AQlLSROBNr74MxFm7LAYmtX98XGjQE1G9Qaeq3WSuMRYjuCXqJ-K8fNYRMyAM6fWfv0&_nc_ht=scontent.faqp4-1.fna&oh=00e1ec494af08a35fddcf841abc3a643&oe=5F7FA93C",
-    "https://scontent.faqp4-2.fna.fbcdn.net/v/t1.0-9/118387241_596223034393872_3545899982573068492_o.jpg?_nc_cat=106&_nc_sid=a26aad&_nc_eui2=AeGO_rdgLOeiTW5wPQkMXzxUgA6PQwWoB3OADo9DBagHcx7bIrUUcmhLajrumjIvwmNMIVkYagMa6pZkKw-9YpJD&_nc_ohc=5R8dFNiDIIIAX8K97jW&_nc_ht=scontent.faqp4-2.fna&oh=8bd592f2155624f3c71ff02d2ad1a1d7&oe=5F802D26",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp8.jpeg?alt=media&token=d235b910-f634-4edb-9de7-b031e7c74826",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp7.jpeg?alt=media&token=e3b9c029-f247-47ac-808a-454b821e93fb",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp6.jpeg?alt=media&token=85199934-1bf8-4a47-9ff7-3aa3aade3a9e",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp5.jpeg?alt=media&token=0ba3c0d2-b10a-414e-ae39-8bcbb04a0db3",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp3.jpeg?alt=media&token=e8a017fe-1e64-4731-8934-c931269656f9",
+
   ];
 
   let index = 0;
