@@ -113,13 +113,13 @@
           <li><a href="/Studio" use:link>Studio</a></li>
           <li><a href="/Tattos" use:link>Tattos</a></li>
           <li style="display:flex; justify-content:center">
-            <a href="/"><div class="icon">
+            <a href="https://web.facebook.com/Baamago-Tattoo-107734911064066"><div class="icon">
                 <FaFacebookSquare />
               </div></a>
-            <a href="/"><div class="icon">
+            <a href="https://www.instagram.com/llinpiy_tattoo/"><div class="icon">
                 <FaInstagram />
               </div></a>
-            <a href="/"><div class="icon">
+            <a href="https://api.whatsapp.com/send?phone=51961679302&text=Hola%21%20Me%20interesa%20&source=&data=&app_absent=https://wa.me/51961679302?text=Hola!%20Me%20interesa%20"><div class="icon">
                 <FaWhatsappSquare />
               </div></a>
           </li>
