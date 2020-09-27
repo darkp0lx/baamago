@@ -5,8 +5,6 @@
     "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp7.jpeg?alt=media&token=e3b9c029-f247-47ac-808a-454b821e93fb",
     "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp6.jpeg?alt=media&token=85199934-1bf8-4a47-9ff7-3aa3aade3a9e",
     "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp5.jpeg?alt=media&token=0ba3c0d2-b10a-414e-ae39-8bcbb04a0db3",
-    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp3.jpeg?alt=media&token=e8a017fe-1e64-4731-8934-c931269656f9",
-
   ];
 
   let index = 0;
