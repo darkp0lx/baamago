@@ -148,7 +148,7 @@
     </div>
     <div class="avatar" id="avatar-julia">
       <img
-        src="https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Fartist2-min.jpeg?alt=media&token=998de9d1-962b-4d2a-8575-34ddf1f277fd"
+        src="https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Fartis2-min.jpg?alt=media&token=bce7b807-6352-4250-b182-771701215125"
         alt="avatar2.png" />
     </div>
     <div class="redes">
