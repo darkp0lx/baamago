@@ -1,7 +1,7 @@
 <script>
   import { fade } from "svelte/transition";
   const carouselPhotos = [
-    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp8.jpeg?alt=media&token=d235b910-f634-4edb-9de7-b031e7c74826",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Fpiercing1-min.jpg?alt=media&token=8825bedf-8846-4137-b6f9-6572d68d3f9d",
     "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp7.jpeg?alt=media&token=e3b9c029-f247-47ac-808a-454b821e93fb",
     "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp6.jpeg?alt=media&token=85199934-1bf8-4a47-9ff7-3aa3aade3a9e",
     "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/pircing%2Fp5.jpeg?alt=media&token=0ba3c0d2-b10a-414e-ae39-8bcbb04a0db3",

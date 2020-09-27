@@ -23,17 +23,26 @@
       margin-right: 1.5em;
       height: 5em;
     }
+    #whatsapp:hover {
+      color: #25d366;
+    }
+    #facebook:hover {
+      color: #3b5998;
+    }
+    #instagram:hover {
+      color: #e1306c;
+    }
   }
 
   @media screen and (max-width: 425px) {
     .Footer {
-      .direccion h2{
+      .direccion h2 {
         font-size: 1em;
       }
       .icon {
-      width: 1.9em;
-      height: 1.9em;
-    }
+        width: 1.9em;
+        height: 1.9em;
+      }
     }
   }
 </style>
@@ -43,20 +52,22 @@
     <div class="span"><span>siguenos</span></div>
     <div class="redes">
       <a target="_black" href="https://www.instagram.com/llinpiy_tattoo/"><div
-          class="icon">
+          class="icon"
+          id="instagram">
           <FaInstagram />
         </div></a>
       <a
         target="_black"
         href="https://web.facebook.com/Baamago-Tattoo-107734911064066">
-        <div class="icon">
+        <div class="icon" id="facebook">
           <FaFacebookSquare />
         </div>
       </a>
       <a
         target="_black"
         href="https://api.whatsapp.com/send?phone=51961679302&text=Hola%21%20Me%20interesa%20&source=&data=&app_absent=https://wa.me/51961679302?text=Hola!%20Me%20interesa%20"><div
-          class="icon">
+          class="icon"
+          id="whatsapp">
           <FaWhatsappSquare />
         </div>
       </a>

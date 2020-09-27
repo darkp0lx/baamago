@@ -2,7 +2,7 @@
   import { fade } from "svelte/transition";
   const carouselPhotos = [
     "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/wallpaper.jpg?alt=media&token=a63ea5cb-f2a9-4dfe-ad11-f3a7371c66aa",
-    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/wallpaper2.jpg?alt=media&token=63b26278-7bf4-49a9-890e-8a38119225ae",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Fwallpaper2-min.jpg?alt=media&token=20733e25-7d68-4902-b85b-873683d4d07c",
   ];
 
   let index = 0;

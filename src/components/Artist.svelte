@@ -51,6 +51,7 @@
   .redes .icon {
     width: 2em;
     margin: 1em 1em 0 0;
+    color: white;
   }
   .avatar img {
     border-radius: 100%;
@@ -58,6 +59,12 @@
   #avatar-julia img {
     width: 150px;
     height: 150px;
+  }
+    #facebook:hover{
+    color:#3b5998;
+  }
+  #instagram:hover{
+    color:#e1306c;
   }
   @media screen and (max-width: 768px) {
   }
@@ -72,7 +79,7 @@
         padding: 1em;
         height: 110vh;
         width: 100vw;
-        background-image: url("https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/wallpaper-artist.jpg?alt=media&token=110247ae-72d9-462e-a25c-9a47ffd84481");
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Fwallpaper-artist-min.jpg?alt=media&token=614a5901-1863-4dff-b24d-96630e06391b");
         background-size: cover;
         .description p {
           font-size: 1em;
@@ -83,7 +90,7 @@
     }
   }
   @media screen and (max-width: 425px) {
-     .Artist .container-artist .description p {
+    .Artist .container-artist .description p {
       font-size: 0.9em;
       width: 80vw;
     }
@@ -114,12 +121,12 @@
         alt="" />
     </div>
     <div class="redes">
-      <div class="icon">
-        <FaFacebookSquare />
-      </div>
-      <div class="icon">
-        <FaInstagram />
-      </div>
+      <a href="/"><div id="facebook" class="icon">
+          <FaFacebookSquare />
+        </div></a>
+      <a href="/"><div id="instagram" class="icon">
+          <FaInstagram />
+        </div></a>
     </div>
   </div>
   <div class="container-artist">
@@ -141,16 +148,16 @@
     </div>
     <div class="avatar" id="avatar-julia">
       <img
-        src="https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/artist2.jpeg?alt=media&token=d35e0610-028f-498a-8f41-7d6005616269"
-        alt="" />
+        src="https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Fartist2-min.jpeg?alt=media&token=998de9d1-962b-4d2a-8575-34ddf1f277fd"
+        alt="avatar2.png" />
     </div>
     <div class="redes">
-      <div class="icon">
-        <FaFacebookSquare />
-      </div>
-      <div class="icon">
-        <FaInstagram />
-      </div>
+      <a href="/"><div id="facebook" class="icon">
+          <FaFacebookSquare />
+        </div></a>
+      <a href="/"><div id="instagram" class="icon">
+          <FaInstagram />
+        </div></a>
     </div>
   </div>
 </div>

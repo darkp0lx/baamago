@@ -1,12 +1,14 @@
 <script>
   import { fade } from "svelte/transition";
   const carouselPhotos = [
-    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/tatto2.jpg?alt=media&token=bf337bcd-7bda-4228-a291-65abf243df3f",
-    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/tatto1.jpg?alt=media&token=fd74ec00-582c-400e-ae47-3ce70753cefd",
-    "https://scontent.faqp4-2.fna.fbcdn.net/v/t1.0-9/118863937_600961797253329_87000584461393436_o.jpg?_nc_cat=100&_nc_sid=a26aad&_nc_eui2=AeFBLnLd51oL4aFR6B-3R9VyS4YcsUH-W1ZLhhyxQf5bVuuLem1WgoMOx4-F5d33kN7AW5hL6Fhj2uyg1SP_ojCR&_nc_ohc=IrrTnexntaUAX-weBFE&_nc_ht=scontent.faqp4-2.fna&oh=d397d3b13cbb623a0e0d53533f85b192&oe=5F7CEAB0",
-    "https://scontent.faqp4-1.fna.fbcdn.net/v/t1.0-9/118496189_596348691047973_4081341248955873775_o.jpg?_nc_cat=102&_nc_sid=a26aad&_nc_eui2=AeHcAANNAf7xyrAG2-r-nyKvdfjzcwGJ_at1-PNzAYn9q9aSB4fwUKHGgEllsVWOt_zoXR-NQ2J0Vq2fnPrp5yaO&_nc_ohc=Vyk9xlkt4IYAX9y2d6_&_nc_oc=AQlLSROBNr74MxFm7LAYmtX98XGjQE1G9Qaeq3WSuMRYjuCXqJ-K8fNYRMyAM6fWfv0&_nc_ht=scontent.faqp4-1.fna&oh=00e1ec494af08a35fddcf841abc3a643&oe=5F7FA93C",
-    "https://scontent.faqp4-2.fna.fbcdn.net/v/t1.0-9/118387241_596223034393872_3545899982573068492_o.jpg?_nc_cat=106&_nc_sid=a26aad&_nc_eui2=AeGO_rdgLOeiTW5wPQkMXzxUgA6PQwWoB3OADo9DBagHcx7bIrUUcmhLajrumjIvwmNMIVkYagMa6pZkKw-9YpJD&_nc_ohc=5R8dFNiDIIIAX8K97jW&_nc_ht=scontent.faqp4-2.fna&oh=8bd592f2155624f3c71ff02d2ad1a1d7&oe=5F802D26",
-    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/tatto7.png?alt=media&token=3446534f-cbd5-44ec-843e-a00605d3b827",
+    "https://scontent.faqp4-1.fna.fbcdn.net/v/t1.0-9/118496189_596348691047973_4081341248955873775_o.jpg?_nc_cat=102&_nc_sid=a26aad&_nc_eui2=AeHcAANNAf7xyrAG2-r-nyKvdfjzcwGJ_at1-PNzAYn9q9aSB4fwUKHGgEllsVWOt_zoXR-NQ2J0Vq2fnPrp5yaO&_nc_ohc=V4xUA0EZ9GUAX9pQjqv&_nc_oc=AQm6CBo8-EFHdjNgsU-o4bMNwP2HvjRamenquxWM1MSvJZKOm5hpmHf2onRVis6s3xk&_nc_ht=scontent.faqp4-1.fna&oh=50617e24a908a84fa7917706f18a128d&oe=5F97643C",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Ftatto1-min.jpeg?alt=media&token=09ffd9db-e5d8-4af4-b1c4-cc9155a050fc",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Ftatto3.png?alt=media&token=75a6edf1-6fba-4e90-8035-ac440b48841c",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Ftatto6.png?alt=media&token=57397f3e-a005-4aef-b44c-e7e09bdcf9cf",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Ftatto7-min.jpg?alt=media&token=cdb98e71-3efe-461d-92e5-e771bdf66314",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Ftatto10.png?alt=media&token=d3048021-8d56-41e6-9bc5-1f3657d63315",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Ftatto12.png?alt=media&token=aabd8f97-6ba9-410d-b498-a8481ee6cf1c",
+    "https://firebasestorage.googleapis.com/v0/b/crud-d8ca2.appspot.com/o/seo-image%2Ftatto13.png?alt=media&token=3d7ebb5c-2907-45f0-9d33-c29aef0f5609"
   ];
 
   let index = 0;
