@@ -7,6 +7,8 @@
   import FaFacebookSquare from "svelte-icons/fa/FaFacebookSquare.svelte";
   import FaInstagram from "svelte-icons/fa/FaInstagram.svelte";
   import FaWhatsappSquare from "svelte-icons/fa/FaWhatsappSquare.svelte";
+  import Tatuados from "../Tatuados.svelte"
+
 </script>
 
 <style lang="scss">
@@ -120,7 +122,7 @@
         <ul>
           <li><a href="/" use:link>Home</a></li>
           <li><a href="/Studio" use:link>Studio</a></li>
-          <li><a href="/Tattos" use:link>Tattos</a></li>
+          <li><a href="/Tatuados" use:link>Tattos</a></li>
           <li style="display:flex; justify-content:center">
             <a target="_black" href="https://web.facebook.com/Baamago-Tattoo-107734911064066"><div id="facebook" class="icon">
                 <FaFacebookSquare />
@@ -139,6 +141,6 @@
   <div>
     <Route path="/" component={Home} />
     <Route path="/Studio" component={Studio} />
-    <Route path="/Tattos" component={Tattos} />
+    <Route path="/Tatuados" component={Tatuados} />
   </div>
 </Router>

@@ -32,7 +32,7 @@ import {fade,fly} from 'svelte-transitions'
         alt="" />
     </div>
     <div class="infoStudio">
-      <h3>Baamago Studio</h3>
+      <h3 class="animate__animated animate__bounce">Baamago Studio</h3>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
         aliquam, quo at sint praesentium fuga ipsam deserunt fugit officiis
